@@ -11,7 +11,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_jpsah4c', 'template_t3qf05f', form.current, 'E9VnCPxVSMnwvY8lp')};
+    emailjs.sendForm('service_jpsah4c', 'template_t3qf05f', form.current, 'E9VnCPxVSMnwvY8lp')
+    e.target.reset();
+  };
 
   return (
    <section id="contact">
