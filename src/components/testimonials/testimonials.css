@@ -39,17 +39,17 @@
     .container.testimonials__container{
         width: 60%;
     }
-   .container.testimonials__container{
-       width: var(--container-width-sm);
-       
-   }
-   .client__review{
-       width: var(--container-width-sm);
-   }
+   
+
 }
 
 
 /*========MEDIA QUERIES (Small devices)=========*/
 @media screen and(max-width){
+
+    .container.testimonials__container{
+        width: 80%;
+        
+    }
 
 }
